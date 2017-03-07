@@ -63,7 +63,7 @@ class Geant4(Package):
         # fixme: turn off data for now and maybe each data set should
         # go into a separate package to cut down on disk usage between
         # different code versions using the same data versions.
-        cmake_args.append('-DGEANT4_INSTALL_DATA=OFF')
+        cmake_args.append('-DGEANT4_INSTALL_DATA=ON')
 
         # http://geant4.web.cern.ch/geant4/UserDocumentation/UsersGuides/InstallationGuide/html/ch02s03.html
         # fixme: likely things that need addressing:
