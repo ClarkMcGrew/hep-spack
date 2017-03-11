@@ -70,6 +70,7 @@ class Root(Package):
         options.append('-Dcocoa=off')
         options.append('-Dbonjour=off')
         options.append('-Dx11=on')
+        options.append('-Dgdml=on')
         options.extend(std_cmake_args)
         if sys.platform == 'darwin':
             darwin_options = [
